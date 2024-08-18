@@ -1,0 +1,46 @@
+.Footsec footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    border-radius: 25px;
+    border:none;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #555;
+    color: white; 
+  }
+  
+  .foot1, .foot2, .foot3 {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px; 
+  }
+  
+  .foot1 img, .foot2 img, .foot3 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; 
+  }
+  .foot3 {
+    max-width: 300px; 
+  }
+  
+  .two {
+    margin-right: 10px; 
+  }
+  
+  .foot3 h2, .foot3 p {
+    margin: 10px 0;
+  }
+  
