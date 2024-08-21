@@ -37,17 +37,43 @@ const Aboutsus = () => {
     </div>
     </div>
 
-   <div className='imgicons1'>
-   <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/3-mnl9qbGGeNTkR18R.png" alt=""/>
-   <img src ="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/1-YBg4ewG9l6IgQLyL.png" alt=""/>
-   <img  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/2-Y4LJx9kW47hWly0j.png" alt=""/>
-    </div>
-
-    <div className='imgicons2'>
-    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/5-mv072bwrN7F1eB5G.png" alt=""/>
-    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/4-YKbrEWDGj3s1krWl.png" alt=""/>
-    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=355,fit=crop/mP4NJy8xR9iXWrJO/6-YD04BoGeKqcVGEwk.png" alt=""/>
+    <div className='imgicons1'>
+  <div className="member">
+    <img src="/NitikaSharma.jpeg" alt="Nitika Sharma"/>
+    <h1>Nitika Sharma</h1>
+    <h3>Deputy Secretary General</h3>
+  </div>
+  <div className="member">
+    <img src="/Atharvpatidar.jpeg" alt="Atharv Patidar"/>
+    <h1>Atharv Patidar</h1>
+    <h3>OC Head</h3>
+  </div>
+  <div className="member">
+    <img src="/ArpitAgrawal.jpeg" alt="Arpit Agrawal"/>
+    <h1>Arpit Agrawal</h1>
+    <h3>Director General</h3>
+  </div>
 </div>
+
+<div className='imgicons2'>
+  <div className="member">
+    <img src="/YashuMathur .jpg" alt="Yashu Mathur"/>
+    <h1>Yashu Mathur</h1>
+    <h3>Head of Media Affairs</h3>
+  </div>
+  <div className="member">
+    <img src="/PriyanshBhardwaj.jpeg" alt="Priyansh Bhardwaj"/>
+    <h1>Priyansh Bhardwaj</h1>
+    <h3>Founder Secretary General</h3>
+  </div>
+  <div className="member">
+    <img src="/Kaustubhsharma.jpeg" alt="Kaustubh Sharma"/>
+    <h1>Kaustubh Sharma</h1>
+    <h3>Some Title</h3>
+  </div>
+</div>
+
+   
     </div>
   )
 }

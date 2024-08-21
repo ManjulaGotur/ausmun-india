@@ -1,10 +1,13 @@
+.register{
+  background: 'linear-gradient(to right, #ff3131, #ff914d)';
+}
 .homesec {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top:-8px;
   height: 100vh; 
-  background-color: #f5f5f5; 
+  /* background-color: #f5f5f5;  */
 background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230408/pngtree-hawa-mahal-photo-image_2366506.jpg');
 background-size: cover;
 }
